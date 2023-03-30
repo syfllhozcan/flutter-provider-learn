@@ -22,8 +22,9 @@ class FirstPage extends StatelessWidget {
               elevetionButtonIncrement(),
               sizedBoxWidget(size: 0.01),
               outlinedButttonIncrement(
-                  navigator: '/second',
-                  outlinedButtonText: firstNavigatorButtonString),
+                navigator: '/second',
+                outlinedButtonText: secondNavigatorButtonString,
+              ),
             ]),
       ),
     );

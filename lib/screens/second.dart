@@ -25,7 +25,7 @@ class SecondPage extends StatelessWidget {
               sizedBoxWidget(size: 0.01),
               outlinedButttonIncrement(
                 navigator: '/',
-                outlinedButtonText: secondNavigatorButtonString,
+                outlinedButtonText: firstNavigatorButtonString,
               ),
             ]),
       ),
